@@ -10,3 +10,4 @@ Where are customers with a high lifetime value based?
 Do sales figures vary between geographic regions?
 ## Data Set
 [Rockbuster Raw Data](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+[Rockbuster Final Data Sets](https://1drv.ms/u/s!Av6amgy3JU7viSm1MpWOpGEb7JRN?e=dDCx9r)

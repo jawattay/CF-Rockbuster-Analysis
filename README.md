@@ -8,6 +8,8 @@ What was the average rental duration for all videos?
 Which countries are Rockbuster customers based in?
 Where are customers with a high lifetime value based?
 Do sales figures vary between geographic regions?
-## Data Set
+## Data Sets
 [Rockbuster Raw Data](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 [Rockbuster Final Data Sets](https://1drv.ms/u/s!Av6amgy3JU7viSm1MpWOpGEb7JRN?e=dDCx9r)
+## Deliverables
+[Tableau Vizualization](https://public.tableau.com/shared/T9W8CMBDG?:display_count=n&:origin=viz_share_link)

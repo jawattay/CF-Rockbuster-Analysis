@@ -1,4 +1,4 @@
-
+<img width="329" alt="Rockbuster Stealth Logo" src="https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/72bd5985-b9c7-48a0-ba3c-ae809e42d7e9">
 # **CF-Rockbuster-Analysis**
 Analysis of Rockbuster data via PostgreSQL RDBMS (Relational Database Management System) as an analyst in the company's Business Intelligence department.
 ## **Objective**

@@ -27,4 +27,47 @@ Rockbuster Stealth LLC is a fictional movie rental service that used to have sto
 
 -Data Dictionary: [Data Dictionary PDF](https://1drv.ms/b/s!Av6amgy3JU7viB7RmVO5YjRQwcQd?e=MpHiq6).
 
-![3 2 ERD (1)](https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/4625cc1e-29df-40f0-b04d-07079d8aaf0c)
+-SQL Script Identifying Top 10 Countries
+
+SELECT D.country,
+       COUNT(country) AS customers
+FROM customer A
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_ID = D.country_ID
+GROUP BY country
+ORDER BY COUNT(country) DESC
+LIMIT 10
+![Top 10 Countries SQL Script](https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/32c5cdc5-a8f4-448e-82fe-c1ef28b4551f)
+
+- SQL Script Identifying Top 10 Cities
+
+SELECT D.country,
+	   C.city,
+       COUNT(customer_id) AS customer_count
+FROM customer A
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_ID = D.country_ID
+WHERE country IN('India','China', 'United States', 'Japan', 'Mexico', 'Brazil', 'Russian Federation', 'Philippines', 'Turkey', 'Indonesia')
+GROUP BY D.country,
+	     C.city
+ORDER BY customer_count DESC
+LIMIT 10
+![Top 10 Cities SQL Script](https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/42e3eac4-d9a5-4bf6-a7cb-d97dc33981bf)
+
+- SQL Script Identifying Top 5 Customers
+
+SELECT A.customer_id, A.first_name, A.last_name, C.city, D.country,
+       SUM(E.amount) AS total_amount_paid
+FROM customer A 
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+INNER JOIN payment E ON A.customer_id = E.customer_id
+WHERE C.city IN('Aurora', 'Acua', 'Citrus Heights', 'Iwaki', 'Ambattur', 'Shanwei', 
+'So Leopoldo', 'Teboksary', 'Tianjin', 'Cianjur')
+GROUP BY A.customer_id, A.first_name, A.last_name, C.city, D.country
+ORDER BY total_amount_paid DESC
+LIMIT 5
+![Top 5 Customers SQL Script](https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/6a5eb39e-7ad5-4b1b-92af-a9b9647d8cf6)

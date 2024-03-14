@@ -26,3 +26,5 @@ Rockbuster Stealth LLC is a fictional movie rental service that used to have sto
 -Report: [Report PDF](https://1drv.ms/b/s!Av6amgy3JU7viB0vtArmEJHiezP5?e=2K7oez).
 
 -Data Dictionary: [Data Dictionary PDF](https://1drv.ms/b/s!Av6amgy3JU7viB7RmVO5YjRQwcQd?e=MpHiq6).
+
+![3 2 ERD (1)](https://github.com/jawattay/CF-Rockbuster-Analysis/assets/162839921/4625cc1e-29df-40f0-b04d-07079d8aaf0c)

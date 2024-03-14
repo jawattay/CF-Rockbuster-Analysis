@@ -1,4 +1,4 @@
-"C:\Users\Josh Wattay\OneDrive\Desktop\Data Analytics\CareerFoundry\Data Immersion\Achievement 3\Rockbuster Stealth Logo.png"
+/assets/images/C:\Users\Josh Wattay\OneDrive\Desktop\Data Analytics\CareerFoundry\Data Immersion\Achievement 3\Rockbuster Stealth Logo.png
 # **CF-Rockbuster-Analysis**
 Analysis of Rockbuster data via PostgreSQL RDBMS (Relational Database Management System) as an analyst in the company's Business Intelligence department.
 ## **Objective**

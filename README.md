@@ -1,3 +1,4 @@
+![Rockbuster Stealth Logo](https://1drv.ms/i/s!Av6amgy3JU7vind4tturAMNu_b3s?e=4nzXKR)
 # **CF-Rockbuster-Analysis**
 Analysis of Rockbuster data via PostgreSQL RDBMS (Relational Database Management System) as an analyst in the company's Business Intelligence department.
 ## **Objective**
